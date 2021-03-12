@@ -1,4 +1,19 @@
-more to follow.... ;-)
+UPDATE 2021:
+============
+
+Newer versions of UE have some work to allow setting the Shader Compiler Priority.
+
+The required setting was not in the BaseEngine.ini file for the latest version of UE I had, but you can simply add the follow key to the ini.
+
+Find the BaseEngine.ini file, in there, find the [DevOptions.Shaders] section, then add this line:
+
+WorkerProcessPriority=1
+
+
+====================================================
+
+
+
 
 Why?
 ====
